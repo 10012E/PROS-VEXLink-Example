@@ -22,8 +22,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="download.png" alt="Logo" width="80" height="100">
+  <a href="https://github.com/10012E/PROS-VEXLink-Example/tree/main">
+    <img src="images/download.png" alt="Logo" width="80" height="100">
   </a>
 
   <h3 align="center">Example for VEXLink Using PROS</h3>
@@ -70,8 +70,7 @@ A simple demo for using VEXLink with PROS
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+  <img src="images/Final.png" alt="VEXLink">
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
