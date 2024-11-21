@@ -217,8 +217,10 @@ Finally, we use the pros multi tasking to run both defining and sending the info
 ## Usage
 
 WAIT!!! How do I even view the information???? Well, you found the place right here! The first thing your going to do is go to the PROS extension and click intergrated terminal:
-
-
+<br><br>
+<img scr="images/example.png"
+<br>
+The next thing you're going to do is run the following command into your terminal (make sure you've built and uploaded to project as once you've started its a pain and gerenally what Ii've done is unplug and repulg in my USB. If you have a better way put it under <a href="https://github.com/10012E/PROS-VEXLink-Example/issues"> Issues</a>):
 
 <!-- ROADMAP -->
 ## Roadmap
