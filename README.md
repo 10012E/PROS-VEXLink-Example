@@ -148,7 +148,7 @@ What I did for this was create my variable for motor temps, so I ended up using 
     std::uint32_t motor_temp = motor.get_temperature(); // Get the motor
 ```
 
-The next thing that we'll look at is the "if" "else" bl0ck of code
+The next thing that we'll look at is the "if" "else" block of code
 
 
 <!-- USAGE EXAMPLES -->
@@ -200,7 +200,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See <a href="LICENSE">`LICENSE`</a> for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
