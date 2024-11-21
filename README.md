@@ -102,16 +102,14 @@ This section should list any major frameworks/libraries in this example.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here we'll explain the basic framework of this code.
+<br><br><br>
 
-### Prerequisites
+With PROS 4 using the main.h file is absolutely necessary, if not used your program will error and fail. So the program starts by including this file:
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+```sh
+#include "main.h"
+```
 
 ### Installation
 
