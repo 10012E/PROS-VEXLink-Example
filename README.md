@@ -91,8 +91,8 @@ Of course, this is <strong>not</strong> a example to copy without understanding.
 ### Built With
 
 This section should list any major frameworks/libraries in this example.
-<a href:"https://pros.cs.purdue.edu/v5/pros-4/index.html"> PROS 4</a>
-
+  <a href="https://pros.cs.purdue.edu/v5/pros-4/index.html">PROS 4</a>
+  <a href="https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view">VEXLink Documentation</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
