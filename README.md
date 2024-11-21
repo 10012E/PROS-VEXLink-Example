@@ -59,6 +59,7 @@ A simple demo for using VEXLink with PROS
       <ul>
         <li><a href="#Define What Your Sending">What am I sending?</a></li>
         <li><a href="#Sending Data">Installation</a></li>
+        <li><a href="The Control Centre">The Control Centre</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
