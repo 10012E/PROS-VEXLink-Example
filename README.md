@@ -133,13 +133,14 @@ To explain this we need to dive into a bit of simple syntax:<br><br>
 
 std::  =  refers to a common c++ library, named Standard Library<br>
 uint32_t = Unsigned Integers = integers only 0 and + numbers. The 32 refers to the size of the number:<br>
-              
-              | uint | Range| 
-              ---------------
-              | uint8_t | 0-255 (2^8)|
-              | uint16_t | 0-65536 (2^16)|
-              | uint32_t | 0-4294967296 (2^32)|
-              | uint64_t | 0-18446744073709551615 (2^64)|
+
+| uint  | Range |
+| ------|------ |
+| uint8_t  | 0-255 (2^8)  |
+| uint16_t  | 0-65536 (2^16)  |
+| uint32_t | 0-4294967296 (2^32)|
+| uint64_t | 0-18446744073709551615 (2^64)|
+
 Some sizes are overkill for our situation.<br><br>
 
 What I did for this was create my variable for motor temps, so I ended up using the uint32_t.<br>
