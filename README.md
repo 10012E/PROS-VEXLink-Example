@@ -52,8 +52,8 @@ A simple demo for using VEXLink with PROS
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#DefineWhatYourSending">What am I sending?</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Define What Your Sending">What am I sending?</a></li>
+        <li><a href="#Sending Data">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -118,26 +118,17 @@ pros::Motor motor(10, pros::MotorGears::blue); // Adding a Blue Motor to the por
 ```
 
 I also added a controller so I can control the speed of the motor to test my function. Refer to other repos for info on how to create this.
+
+
 ### Sending Data
+This is when things start to get a little tricky, however, they are still relatively simple. Let's go through it 🙂:
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+<br>
+Right before we dig in, we surrond all of this in a while (true) loop, this insures that the program will continue to scan for new information. If we didn't have this then the data will only be sent once.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+```sh
+    std::uint32_t motor_temp = motor.get_temperature(); // Get the motor
+```
 
 
 <!-- USAGE EXAMPLES -->
