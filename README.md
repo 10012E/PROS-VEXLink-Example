@@ -125,10 +125,19 @@ This is when things start to get a little tricky, however, they are still relati
 
 <br>
 Right before we dig in, we surrond all of this in a while (true) loop, this insures that the program will continue to scan for new information. If we didn't have this then the data will only be sent once.
-
+<br>
 ```sh
     std::uint32_t motor_temp = motor.get_temperature(); // Get the motor
 ```
+To explain this we need to dive into a bit of simple syntax:
+
+std::  =  refers to a common c++ library, named Standard Library
+uint32_t = Unsigned Integers = integers only 0 and + numbers. The 32 refers to the size of the number:
+              uint8_t = 0-255 (2^8)
+              uint16_t = 0-65536 (2^16)
+              uint32_t = 0-4294967296 (2^32)
+              uint64_t = 0-18446744073709551615 (2^64)
+Some sizes are overkill for our situation
 
 
 <!-- USAGE EXAMPLES -->
