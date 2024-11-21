@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/10012E/PROS-VEXLink-Example/tree/main">
-    <img src="images/download.png" alt="Logo" width="80" height="100">
+    <img src="images/logo.png" alt="Logo" width="80" height="100">
   </a>
 
   <h3 align="center">Example for VEXLink Using PROS</h3>
