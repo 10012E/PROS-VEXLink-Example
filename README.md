@@ -18,10 +18,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![VEXLink][vexlink-shield]][https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view]
+[![PROS 4 API][pros-shield][https://pros.cs.purdue.edu/v5/pros-4/index.html]
+[![VEXLink Using PROS][vexlinkpros-shield]][https://purduesigbots.github.io/pros-doxygen-docs/group__cpp-link.html#ga64c630547d0e9c66e515f2dd838e4341]
 
 
 
@@ -32,7 +32,7 @@
     <img src="download.png" alt="Logo" width="80" height="100">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Example for VEXLink Using PROS</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
