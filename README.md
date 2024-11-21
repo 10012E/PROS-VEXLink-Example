@@ -200,10 +200,10 @@ void opcontrol() {
   pros::Task task(spin);
 }
 ```
-This is the brain of the program, while this program isn't the first to run it will run before the functions that you write. Knowing this we can define our radio here. we use the `pros::Link` function; we also need to define what we are defining which is a `link`. Then inside the () we will define the port that has the radio which in my case is port 21. Lastly we have to tell the program what this radio will do. Here it will transmit information your computer, so we define it as such.<br>
+This is the brain of the program, while this program isn't the first to run it will run before the functions that you write. Knowing this we can define our radio here. we use the `pros::Link` function; we also need to define what we are defining which is a `link`. Then inside the () we will define the port that has the radio which in my case is port 21. Lastly we have to tell the program what this radio will do. Here it will transmit information your computer, so we define it as such.<br><br>
 `E_LINK_TX = E_LINK_TRANSMITTER`
-<br>
-The `printf("opcontrol is running\n");` is a debugging feature that will show up in your pros terminal and will allow you know if everything is working.<br>
+<br><br>
+The `printf("opcontrol is running\n");` is a debugging feature that will show up in your pros terminal and will allow you know if everything is working.<br><br>
 
 Finally, we use the pros multi tasking to run both defining and sending the information.
 <hr><br>
