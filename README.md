@@ -29,13 +29,11 @@
   <h3 align="center">Example for VEXLink Using PROS</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+A simple demo for using VEXLink with PROS
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/10012E/PROS-VEXLink-Example/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/10012E/PROS-VEXLink-Example/issues">Request Feature</a>
   </p>
 </div>
 
