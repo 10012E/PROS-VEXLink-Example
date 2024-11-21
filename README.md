@@ -74,12 +74,14 @@ A simple demo for using VEXLink with PROS
   margin-left: auto;
   margin-right: auto;">
   <br>
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This is a basic example of how you can use the PROS extension on VSCode and the VEXLink system to communicate with your device and your robot.
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* Have you ever been working on auto and when you want to find coordinates you need to check either the brain or controller.
+* * Maybe your controller is in a place that is difficult to access
+    * * Possibly in a match and you want to monitor how your coding is doing to make adjustments
+* Need to check motor temps to see if their over heating
+* Tuning PIDs
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
