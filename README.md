@@ -21,7 +21,7 @@
 <div align="center">
 
 [![ISSUES - Issues](https://img.shields.io/badge/ISSUES-Issues-4287f5?style=for-the-badge)](https://github.com/10012E/PROS-VEXLink-Example/issues)
-[![license - MIT LICENSE](https://img.shields.io/badge/license-LICENSE-2ea44f?style=for-the-badge)](LICENSE)
+[![MIT License][license-shield]][license-url]
 </div>
 
 <!-- PROJECT LOGO -->
@@ -229,3 +229,5 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE
