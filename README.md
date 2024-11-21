@@ -151,11 +151,22 @@ Some sizes are overkill for our situation.<br><br>
 What I did for this was create my variable for motor temps, so I ended up using the uint32_t.<br>
 ```sh
     std::uint32_t motor_temp = motor.get_temperature(); // Get the motor
+    std::uint32_t motor_rpm = motor.get_actual_velocity();
 ```
 
-The next thing that we'll look at is the "if" "else" block of code
+The next thing that we'll look at is the "if" "else" block of code:<br>
+    We now are going to look to see if the data we are reciving is invalid:
+```sh
+ if (motor_temp || motor_rpm == PROS_ERR_F) { // If the temperature reading is invalid
+```
+<br>
+We fetch the motor temp and RPM and ask (==) if either (we use || to call "or" operator, so ⬇️) are equal to error.<br>
 
+```sh
+if (motor_temp or motor_rpm == PROS_ERR_F) { // If the temperature reading is invalid
+```
 
+<hr>
 <!-- USAGE EXAMPLES -->
 ## Usage
 
