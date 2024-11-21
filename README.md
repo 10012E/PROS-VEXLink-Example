@@ -126,6 +126,7 @@ This is when things start to get a little tricky, however, they are still relati
 <br>
 Right before we dig in, we surrond all of this in a while (true) loop, this insures that the program will continue to scan for new information. If we didn't have this then the data will only be sent once.
 <br>
+
 ```sh
 std::uint32_t motor_temp = motor.get_temperature(); // Get the motor
 ```
