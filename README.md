@@ -21,22 +21,10 @@
 <div align="center">
 
 [![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
+[![view - LICENSE(https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
 
 </div>
 
-
-## License
-
-<i>Call-to-Action buttons</i>
-
-<div align="center">
-</div>
-<div align="center">
-<a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
-
-</div>
-<h2>License</h2>
-Released under <a href="/LICENSE">MIT</a> by <a href="https://github.com/10012E">@10012E</a>.
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
