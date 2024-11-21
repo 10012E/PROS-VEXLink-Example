@@ -216,11 +216,7 @@ Finally, we use the pros multi tasking to run both defining and sending the info
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+WAIT!!! How do I even view the information???? Well, you found the place right here! The first thing your going to do is go to the PROS extension and click intergrated terminal:
 
 
 
