@@ -247,8 +247,9 @@ Distributed under the MIT License. See <a href="LICENSE">`LICENSE`</a> for more 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-<a href="https://pros.cs.purdue.edu/v5/pros-4/index.html"> PROS 4</a>
-<a href="https://github.com/philb90/Best-README-Template"> README Template </a>
+<a href="https://pros.cs.purdue.edu/v5/pros-4/index.html"> PROS 4</a><br>
+<a href="https://github.com/philb90/Best-README-Template"> README Template </a><br>
+<a href="https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view"> VEXLink</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
