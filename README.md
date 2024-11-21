@@ -69,8 +69,9 @@ A simple demo for using VEXLink with PROS
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-  <img src="images/Final.png" alt="VEXLink" width="60%" height="60%" align="center">
+<div align="center">
+  <img src="images/Final.png" alt="VEXLink" width="60%" height="60%">
+  </div>
   <br>
 This is a basic example of how you can use the PROS extension on VSCode and the VEXLink system to communicate with your device and your robot.
 
