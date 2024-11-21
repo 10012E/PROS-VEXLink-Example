@@ -18,7 +18,9 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-![Static Badge](https://img.shields.io/badge/MIT%20LICENSE)
+[![LICENSE](https://github.com/10012E/PROS-VEXLink-Example/workflows/LICENSE/badge.svg)](https://github.com/10012E/PROS-VEXLink-Example/actions?query=workflow:"LICENSE")
+[![GitHub tag](https://img.shields.io/github/tag/10012E/PROS-VEXLink-Example?include_prereleases=&sort=semver&color=blue)](https://github.com/10012E/PROS-VEXLink-Example/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 <!-- PROJECT LOGO -->
 <br />
