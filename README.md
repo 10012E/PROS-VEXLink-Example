@@ -18,18 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Issues][issues-shield]][issues-url]
-<i>Dash badge</i>
-
-<a href="https://https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view"><img src="https://img.shields.io/badge/VEXLink-VEXLink-#eb4034" alt="VEXLink - VEXLink"></a>
-
-<i>Query parameter badge</i>
-
-<a href="https://https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view"><img src="https://img.shields.io/static/v1?label=VEXLink&message=VEXLink&color=%23eb4034" alt="VEXLink - VEXLink"></a>
-[![PROS 4 API][pros-shield][pros-url]
-[![VEXLink Using PROS][vexlinkpros-shield]][prosv-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
