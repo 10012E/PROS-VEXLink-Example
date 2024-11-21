@@ -259,3 +259,5 @@ Distributed under the MIT License. See <a href="LICENSE">`LICENSE`</a> for more 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/10012E/PROS-VEXLink-Example/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/10012E/PROS-VEXLink-Example/blob/main/LICENSE
