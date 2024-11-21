@@ -177,7 +177,7 @@ Next if this statement is false we use the else function and it will print the d
 ```sh
     } else { // If the temperature reading is valid
       // Debug print to indicate the motor temperature
-      printf("| Motor Temp: %u C | RPM: %u \n", motor_temp,
+      printf("| Motor Temp: %u C | RPM: %u \n", motor_temp, //the | are just to separate the columns of data.
              motor_rpm);
     }
 ```
