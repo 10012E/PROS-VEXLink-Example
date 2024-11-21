@@ -28,25 +28,26 @@ void Data() {
     // Get the motor temperature
     std::uint32_t motor_temp = motor.get_temperature(); // Get the motor
                                                         // temperature
+    std::uint32_t motor_rpm = motor.get_actual_velocity();
 
     // Check if the temperature reading is valid
-    if (motor_temp == PROS_ERR_F) { // If the temperature reading is invalid
+    if (motor_temp || motor_rpm == PROS_ERR_F) { // If the temperature reading is invalid
       printf("Error reading motor temperature\n");
     } else { // If the temperature reading is valid
       // Debug print to indicate the motor temperature
-      printf("| Motor Temp: %u C | RPM: %f \n", motor_temp,
-             motor.get_actual_velocity());
+      printf("| Motor Temp: %u C | RPM: %u \n", motor_temp,
+             motor_rpm);
     }
     pros::delay(100); // Delay for 0.1 second
   }
 }
 
-/*This is the main function that runs when the robot is turned on*/
-void opcontrol() {
-  pros::Link link(21, "my_link", pros::E_LINK_TX); // Create a link radio
+  /*This is the main function that runs when the robot is turned on*/
+  void opcontrol() {
+    pros::Link link(21, "my_link", pros::E_LINK_TX); // Create a link radio
 
-  // Debug print to indicate that opcontrol is running
-  printf("opcontrol is running\n");
-  pros::Task task2(Data);
-  pros::Task task(spin);
-}
+    // Debug print to indicate that opcontrol is running
+    printf("opcontrol is running\n");
+    pros::Task task2(Data);
+    pros::Task task(spin);
+  }
