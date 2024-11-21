@@ -70,7 +70,7 @@ A simple demo for using VEXLink with PROS
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-  <img src="images/Final.png" alt="VEXLink" width="80%" height="80%" style="  display: block;
+  <img src="images/Final.png" alt="VEXLink" width="60%" height="60%" style="  display: block;
   margin-left: auto;
   margin-right: auto;">
   <br>
