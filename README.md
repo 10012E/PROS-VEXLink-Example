@@ -18,10 +18,23 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![LICENSE](https://github.com/10012E/PROS-VEXLink-Example/workflows/LICENSE/badge.svg)](https://github.com/10012E/PROS-VEXLink-Example/actions?query=workflow:"LICENSE")
-[![GitHub tag](https://img.shields.io/github/tag/10012E/PROS-VEXLink-Example?include_prereleases=&sort=semver&color=blue)](https://github.com/10012E/PROS-VEXLink-Example/releases/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+<i>Repo metadata</i>
 
+<a href="https://github.com/10012E/PROS-VEXLink-Example/actions?query=workflow:%22LICENSE%22"><img src="https://github.com/10012E/PROS-VEXLink-Example/workflows/LICENSE/badge.svg" alt="LICENSE"></a>
+<a href="https://github.com/10012E/PROS-VEXLink-Example/releases/"><img src="https://img.shields.io/github/tag/10012E/PROS-VEXLink-Example?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
+<a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
+
+<i>Call-to-Action buttons</i>
+
+<div align="center">
+</div>
+<h2>Documentation</h2>
+<div align="center">
+<a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
+
+</div>
+<h2>License</h2>
+Released under <a href="/LICENSE">MIT</a> by <a href="https://github.com/10012E">@10012E</a>.
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
