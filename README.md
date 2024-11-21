@@ -18,12 +18,18 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-<i>Repo metadata</i>
+## Documentation
 
-<a href="https://github.com/10012E/PROS-VEXLink-Example/actions?query=workflow:%22LICENSE%22"><img src="https://github.com/10012E/PROS-VEXLink-Example/workflows/LICENSE/badge.svg" alt="LICENSE"></a>
-<a href="https://github.com/10012E/PROS-VEXLink-Example/releases/"><img src="https://img.shields.io/github/tag/10012E/PROS-VEXLink-Example?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
-<a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
+<div align="center">
 
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
+
+</div>
+
+
+## License
+
+Released under [MIT](/LICENSE) by [@10012E](https://github.com/10012E).
 <i>Call-to-Action buttons</i>
 
 <div align="center">
