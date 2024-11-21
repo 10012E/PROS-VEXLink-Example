@@ -111,6 +111,11 @@ With PROS 4 using the main.h file is absolutely necessary, if not used your prog
 #include "main.h"
 ```
 
+For this example I chose to take information from a motor. You may use any type of device in VRC that is legal. The general process stays the same. Refer to the <a href="https://pros.cs.purdue.edu/v5/pros-4/index.html">PROS Documentation</a> for information regarding taking information from external sensor and devices.
+My code was the following:
+```sh
+pros::Motor motor(10, pros::MotorGears::blue); // Adding a Blue Motor to the port 10
+```
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
