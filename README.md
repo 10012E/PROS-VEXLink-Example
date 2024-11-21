@@ -70,7 +70,7 @@ A simple demo for using VEXLink with PROS
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-  <img src="images/Final.png" alt="VEXLink">
+  <img src="images/Final.png" alt="VEXLink" width="80%" height="80%">
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
@@ -215,9 +215,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
