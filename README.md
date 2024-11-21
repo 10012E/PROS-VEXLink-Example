@@ -73,6 +73,7 @@ A simple demo for using VEXLink with PROS
   <img src="images/Final.png" alt="VEXLink" width="80%" height="80%" style="  display: block;
   margin-left: auto;
   margin-right: auto;">
+  <br>
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
