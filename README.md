@@ -114,7 +114,7 @@ With PROS 4 using the main.h file is absolutely necessary, if not used your prog
 ```sh
 #include "main.h"
 ```
-### Define What Your Sending
+### Define What Your Sending<br>
 For this example I chose to take information from a motor. You may use any type of device in VRC that is legal. The general process stays the same. Refer to the <a href="https://pros.cs.purdue.edu/v5/pros-4/index.html">PROS Documentation</a> for information regarding taking information from external sensor and devices.
 My code was the following:<br>
 ```sh
@@ -125,6 +125,7 @@ I also added a controller so I can control the speed of the motor to test my fun
 
 
 ### Sending Data
+<br>
 This is when things start to get a little tricky, however, they are still relatively simple. Let's go through it 🙂:
 
 <br>
@@ -184,6 +185,27 @@ Next if this statement is false we use the else function and it will print the d
 <br>
 
 Finally probably the most important part of this function is the `pros::delay(100)`, this simply tells the program to break, this is vital for all while loops and especially while multi-tasking. However this also tells our program the interval for sending information.
+
+### The control Centre
+<br>
+
+```sh
+/*This is the main function that runs when the robot is turned on*/
+void opcontrol() {
+  pros::Link link(21, "my_link", pros::E_LINK_TX); // Create a link radio
+
+  // Debug print to indicate that opcontrol is running
+  printf("opcontrol is running\n");
+  pros::Task task2(Data);
+  pros::Task task(spin);
+}
+```
+This is the brain of the program, while this program isn't the first to run it will run before the functions that you write. Knowing this we can define our radio here. we use the `pros::Link` function; we also need to define what we are defining which is a `link`. Then inside the () we will define the port that has the radio which in my case is port 21. Lastly we have to tell the program what this radio will do. Here it will transmit information your computer, so we define it as such.<br>
+`E_LINK_TX = E_LINK_TRANSMITTER`
+<br>
+The `printf("opcontrol is running\n");` is a debugging feature that will show up in your pros terminal and will allow you know if everything is working.<br>
+
+Finally, we use the pros multi tasking to run both defining and sending the information.
 <hr><br>
 <!-- USAGE EXAMPLES -->
 ## Usage
