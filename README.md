@@ -18,6 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+![Static Badge](https://img.shields.io/badge/MIT%20LICENSE)
 
 <!-- PROJECT LOGO -->
 <br />
