@@ -20,8 +20,8 @@
 -->
 <div align="center">
 
-[![view - LICENSE(https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](LICENSE)
 
+[![license - LICENSE](https://img.shields.io/badge/license-LICENSE-2ea44f?style=for-the-badge)](LICENSE)
 </div>
 
 <!-- PROJECT LOGO -->
