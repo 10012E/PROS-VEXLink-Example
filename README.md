@@ -112,7 +112,7 @@ With PROS 4 using the main.h file is absolutely necessary, if not used your prog
 ```
 ### Define What Your Sending
 For this example I chose to take information from a motor. You may use any type of device in VRC that is legal. The general process stays the same. Refer to the <a href="https://pros.cs.purdue.edu/v5/pros-4/index.html">PROS Documentation</a> for information regarding taking information from external sensor and devices.
-My code was the following:
+My code was the following:<br>
 ```sh
 pros::Motor motor(10, pros::MotorGears::blue); // Adding a Blue Motor to the port 10
 ```
