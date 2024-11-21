@@ -20,7 +20,7 @@
 -->
 <div align="center">
 
-[![ISSUES - Issues](https://img.shields.io/badge/ISSUES-Issues-4287f5?style=for-the-badge)](https://github.com/10012E/PROS-VEXLink-Example/issues)
+[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 </div>
 
