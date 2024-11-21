@@ -19,7 +19,13 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Issues][issues-shield]][issues-url]
-[![VEXLink][vexlink-shield]][vrc-url]
+<i>Dash badge</i>
+
+<a href="https://https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view"><img src="https://img.shields.io/badge/VEXLink-VEXLink-#eb4034" alt="VEXLink - VEXLink"></a>
+
+<i>Query parameter badge</i>
+
+<a href="https://https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view"><img src="https://img.shields.io/static/v1?label=VEXLink&message=VEXLink&color=%23eb4034" alt="VEXLink - VEXLink"></a>
 [![PROS 4 API][pros-shield][pros-url]
 [![VEXLink Using PROS][vexlinkpros-shield]][prosv-url]
 
@@ -239,11 +245,3 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-<i>Dash badge</i>
-
-<a href="https://https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view"><img src="https://img.shields.io/badge/VEXLink-VEXLink-#eb4034" alt="VEXLink - VEXLink"></a>
-
-<i>Query parameter badge</i>
-
-<a href="https://https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view"><img src="https://img.shields.io/static/v1?label=VEXLink&message=VEXLink&color=%23eb4034" alt="VEXLink - VEXLink"></a>
-
