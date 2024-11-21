@@ -166,7 +166,25 @@ We fetch the motor temp and RPM and ask (==) if either (we use || to call "or" o
 if (motor_temp or motor_rpm == PROS_ERR_F) { // If the temperature reading is invalid
 ```
 
-<hr>
+Next, we tell the program what do do if there is an error:
+
+```sh
+      printf("Error reading motor temperature\n");
+```
+<br>
+Next if this statement is false we use the else function and it will print the data on our screen.
+
+```sh
+    } else { // If the temperature reading is valid
+      // Debug print to indicate the motor temperature
+      printf("| Motor Temp: %u C | RPM: %u \n", motor_temp,
+             motor_rpm);
+    }
+```
+<br>
+
+Finally probably the most important part of this function is the `pros::delay(100)`, this simply tells the program to break, this is vital for all while loops and especially while multi-tasking. However this also tells our program the interval for sending information.
+<hr><br>
 <!-- USAGE EXAMPLES -->
 ## Usage
 
