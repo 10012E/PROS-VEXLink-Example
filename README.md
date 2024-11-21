@@ -19,9 +19,9 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Issues][issues-shield]][issues-url]
-[![VEXLink][vexlink-shield]][https://drive.google.com/file/d/13mTA6BT7CPskJzh4YgsfAfoH9OgK75Hn/view]
-[![PROS 4 API][pros-shield][https://pros.cs.purdue.edu/v5/pros-4/index.html]
-[![VEXLink Using PROS][vexlinkpros-shield]][https://purduesigbots.github.io/pros-doxygen-docs/group__cpp-link.html#ga64c630547d0e9c66e515f2dd838e4341]
+[![VEXLink][vexlink-shield]][vrc-url]
+[![PROS 4 API][pros-shield][pros-url]
+[![VEXLink Using PROS][vexlinkpros-shield]][prosv-url]
 
 
 
