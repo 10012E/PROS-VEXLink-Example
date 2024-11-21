@@ -20,9 +20,9 @@
 -->
 <div align="center">
 
-[![Issues - 0 Open](https://img.shields.io/badge/Issues-0_Open-4287f5?style=for-the-badge)](https://github.com/10012E/PROS-VEXLink-Example/issues)[![MIT 
+[![Issues - 0 Open](https://img.shields.io/badge/Issues-0_Open-4287f5?style=for-the-badge)](https://github.com/10012E/PROS-VEXLink-Example/issues)
 
-License][license-shield]][license-url]
+[![MIT License][license-shield]][license-url]
 </div>
 
 <!-- PROJECT LOGO -->
