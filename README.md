@@ -156,16 +156,11 @@ What I did for this was create my variable for motor temps, so I ended up using 
 ```
 
 The next thing that we'll look at is the "if" "else" block of code:<br>
-    We now are going to look to see if the data we are reciving is invalid:
+    We now are going to look to see if the data we are reciving is invalid its not the most important thing but it can be useful to have:
 ```sh
- if (motor_temp || motor_rpm == PROS_ERR_F) { // If the temperature reading is invalid
+ if (motor_temp == PROS_ERR_F) { // If the temperature reading is invalid
 ```
 <br>
-We fetch the motor temp and RPM and ask (==) if either (we use || to call "or" operator, so ⬇️) are equal to error.<br>
-
-```sh
-if (motor_temp or motor_rpm == PROS_ERR_F) { // If the temperature reading is invalid
-```
 
 Next, we tell the program what do do if there is an error:
 
