@@ -31,7 +31,7 @@ void Data() {
     std::uint32_t motor_rpm = motor.get_actual_velocity();
 
     // Check if the temperature reading is valid
-    if (motor_temp || motor_rpm == PROS_ERR_F) { // If the temperature reading is invalid
+    if (motor_temp == PROS_ERR_F) { // If the temperature reading is invalid
       printf("Error reading motor temperature\n");
     } else { // If the temperature reading is valid
       // Debug print to indicate the motor temperature
